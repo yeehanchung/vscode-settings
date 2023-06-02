@@ -6,6 +6,8 @@
 
 <samp><sub>Font | [Input Mono](http://input.fontbureau.com/)</sub></samp>
 <br>
+<samp><sub>Font | [Fira Code](https://github.com/tonsky/FiraCode)</sub></samp>
+<br>
 <samp><sub>File Icons | [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)</sub></samp>
 
 <br>
