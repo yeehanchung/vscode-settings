@@ -13,14 +13,15 @@
 		"pflannery.vscode-versionlens",
 		"dbaeumer.vscode-eslint",
 		
-		// Themes & icons
+		/* Themes & icons */
 		"file-icons.file-icons",
+		// "vscode-icons-team.vscode-icons"
 
-		// TypeScript
+		/* TypeScript */
 		"ms-vscode.vscode-typescript-next",
 		"orta.vscode-twoslash-queries",
 
-		// Next.js
+		/* Next.js */
 		"blanu.vscode-styled-jsx",
 		"divlo.vscode-styled-jsx-languageserver",
 	],
