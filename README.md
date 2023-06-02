@@ -1,13 +1,10 @@
 <samp><b>Yeehan's VS Code Setup</b></samp>
 
 [`.vscode/settings.json`](./.vscode/settings.json)
+<br>
 [`.vscode/extensions.json`](./.vscode/extensions.json)
 
-<br>
-
 <samp><p>Downloads</p></samp>
-
-<br>
 
 <samp><sub>Font | [Input Mono](http://input.fontbureau.com/)</sub></samp>
 <br>
