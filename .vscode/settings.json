@@ -11,55 +11,11 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.renderIndentGuides": "always",
+    /* Window */
     "window.dialogStyle": "custom",
     "window.nativeTabs": true, // this is great, macOS only
     "window.titleBarStyle": "custom",
     "window.zoomLevel": -1,
-    /* https://coolors.co */
-    "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#2ecb6f",
-        "terminalCursor.foreground": "#2ecb6f",
-        "terminal.foreground": "#A5A2A2",
-        "terminalCursor.background": "#A5A2A2",
-        "terminal.ansiBrightBlack": "#5C5855",
-        "terminal.ansiBrightBlue": "#01A0E4",
-        "terminal.ansiBrightCyan": "#B5E4F4",
-        "terminal.ansiBrightGreen": "#01A252",
-        "terminal.ansiBrightMagenta": "#A16A94",
-        "terminal.ansiBrightRed": "#DB2D20",
-        "terminal.ansiBrightWhite": "#F7F7F7",
-        "terminal.ansiBrightYellow": "#FDED02",
-        "terminal.ansiCyan": "#B5E4F4",
-        "terminal.ansiGreen": "#01A252",
-        "terminal.ansiMagenta": "#A16A94",
-        "terminal.ansiRed": "#DB2D20",
-        "terminal.ansiWhite": "#A5A2A2",
-        "terminal.ansiYellow": "#FDED02",
-        "terminal.ansiBlue": "#ADADAD",
-        "terminal.ansiBlack": "#424242",
-        "terminal.background": "#121212",
-        "[Default Light+]": {
-            "sideBar.background": "#F5F5F5",
-            "tab.inactiveBackground": "#F5F5F5",
-            "editor.background": "#F5F5F5",
-            "tab.activeBackground": "#FFFDE4",
-        },
-        "[Default Dark+]": {
-            // "editor.background": "#2b2b2b",
-            "editor.foreground": "#fafafa",
-            "tab.activeBackground": "#000001",
-            "editorLineNumber.foreground": "#7c8083",
-            "editor.wordHighlightStrongBorder": "#DB2D20",
-            "editor.findMatchHighlightBorder": "#DB2D20",
-            "editor.findMatchBorder": "#DB2D20",
-            "editor.findRangeHighlightBorder": "#DB2D20",
-            // "editor.lineHighlightBorder": "#DB2D20",
-            "editor.symbolHighlightBorder": "#DB2D20",
-            "editor.wordHighlightBorder": "#DB2D20",
-            "editor.selectionHighlightBorder": "#DB2D20",
-            "editor.rangeHighlightBorder": "#DB2D20"
-        }
-    },
     /* TypeScript */
     "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -110,37 +66,6 @@
     "editor.guides.bracketPairs": "active",
     "editor.inlineSuggest.enabled": true,
     "editor.lineNumbers": "interval",
-    "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
-            "textMateRules": [
-                {
-                    "scope": "keyword.operator",
-                    "settings": {
-                        "foreground": "#f47446"
-                    }
-                },
-                {
-                    "scope": "comment.block",
-                    "settings": {
-                        "fontStyle": "",
-                        "foreground": "#699f50"
-                    }
-                },
-                {
-                    "scope": "string",
-                    "settings": {
-                        "foreground": "#F8B195",
-                    }
-                },
-                {
-                    "scope": "support.type.property-name",
-                    "settings": {
-                        "foreground": "#9DC7C8",
-                    }
-                },
-            ]
-        }
-    },
     // "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "boundary",
     "editor.suggestSelection": "first",
@@ -306,4 +231,87 @@
     "prettier.printWidth": 200,
     "prettier.semi": false,
     "prettier.singleQuote": true,
+    /**
+     * Color customizations which you can ignore
+     * https://coolors.co
+     */
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#2ecb6f",
+        "terminalCursor.foreground": "#2ecb6f",
+        "terminal.foreground": "#A5A2A2",
+        "terminalCursor.background": "#A5A2A2",
+        "terminal.ansiBrightBlack": "#5C5855",
+        "terminal.ansiBrightBlue": "#01A0E4",
+        "terminal.ansiBrightCyan": "#B5E4F4",
+        "terminal.ansiBrightGreen": "#01A252",
+        "terminal.ansiBrightMagenta": "#A16A94",
+        "terminal.ansiBrightRed": "#DB2D20",
+        "terminal.ansiBrightWhite": "#F7F7F7",
+        "terminal.ansiBrightYellow": "#FDED02",
+        "terminal.ansiCyan": "#B5E4F4",
+        "terminal.ansiGreen": "#01A252",
+        "terminal.ansiMagenta": "#A16A94",
+        "terminal.ansiRed": "#DB2D20",
+        "terminal.ansiWhite": "#A5A2A2",
+        "terminal.ansiYellow": "#FDED02",
+        "terminal.ansiBlue": "#ADADAD",
+        "terminal.ansiBlack": "#424242",
+        "terminal.background": "#121212",
+        "[Default Light+]": {
+            "sideBar.background": "#F5F5F5",
+            "tab.inactiveBackground": "#F5F5F5",
+            "editor.background": "#F5F5F5",
+            "tab.activeBackground": "#FFFDE4",
+        },
+        "[Default Dark+]": {
+            // "editor.background": "#2b2b2b",
+            "editor.foreground": "#fafafa",
+            "tab.activeBackground": "#000001",
+            "editorLineNumber.foreground": "#7c8083",
+            "editor.wordHighlightStrongBorder": "#DB2D20",
+            "editor.findMatchHighlightBorder": "#DB2D20",
+            "editor.findMatchBorder": "#DB2D20",
+            "editor.findRangeHighlightBorder": "#DB2D20",
+            // "editor.lineHighlightBorder": "#DB2D20",
+            "editor.symbolHighlightBorder": "#DB2D20",
+            "editor.wordHighlightBorder": "#DB2D20",
+            "editor.selectionHighlightBorder": "#DB2D20",
+            "editor.rangeHighlightBorder": "#DB2D20"
+        }
+    },
+    /**
+     * Color customizations which you can ignore
+     * https://coolors.co
+     */
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#f47446"
+                    }
+                },
+                {
+                    "scope": "comment.block",
+                    "settings": {
+                        "fontStyle": "",
+                        "foreground": "#699f50"
+                    }
+                },
+                {
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#F8B195",
+                    }
+                },
+                {
+                    "scope": "support.type.property-name",
+                    "settings": {
+                        "foreground": "#9DC7C8",
+                    }
+                },
+            ]
+        }
+    },
 }
