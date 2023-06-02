@@ -4,8 +4,6 @@
 <br>
 [`.vscode/extensions.json`](./.vscode/extensions.json)
 
-<samp><p>Downloads</p></samp>
-
 <samp><sub>Font | [Input Mono](http://input.fontbureau.com/)</sub></samp>
 <br>
 <samp><sub>File Icons | [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)</sub></samp>
