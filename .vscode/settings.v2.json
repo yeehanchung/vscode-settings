@@ -1,0 +1,167 @@
+{
+    // Visuals
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "left",
+    "workbench.list.smoothScrolling": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.tree.indent": 10,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.renderIndentGuides": "always",
+    "extensions.autoUpdate": false,
+    // Editor
+    // "editor.codeActionsOnSave": [
+    //     "source.formatDocument",
+    //     "source.fixAll.eslint"
+    // ],
+    "editor.fontFamily": "Input Mono, Fira Code, monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+    "editor.inlayHints.enabled": "off",
+    "editor.wrappingIndent": "indent",
+    "editor.accessibilitySupport": "off",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineNumbers": "interval",
+    "editor.smoothScrolling": true,
+    "editor.fastScrollSensitivity": 5,
+    "editor.mouseWheelScrollSensitivity": 0.5,
+    // "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "boundary",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.suggestFontSize": 13,
+    "editor.cursorWidth": 3,
+    "editor.tabCompletion": "off",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.hover.sticky": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never",
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "never"
+    },
+    // Window
+    "window.dialogStyle": "custom",
+    "window.nativeTabs": true, // this is great, macOS only
+    "window.titleBarStyle": "custom",
+    // Workbench
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "workbench.reduceMotion": "on",
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.editor.limit.value": 5,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    // JavaScript
+    "javascript.format.semicolons": "remove",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Docusaurus
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    // TypeScript
+    "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.showUnused": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.tsserver.maxTsServerMemory": 16384,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.suggestionActions.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // JavaScript
+    "javascript.suggestionActions.enabled": false,
+    // JSON
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // GitHub
+    "githubPullRequests.focusedMode": "multiDiff",
+    // Error lens
+    "errorLens.excludeBySource": [
+        "cSpell",
+        "Grammarly",
+        "eslint"
+    ],
+    // Emmet
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": false,
+    "emmet.showExpandedAbbreviation": "never",
+    "emmet.optimizeStylesheetParsing": false,
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+    // Files
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/*.class": true
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.simpleDialog.enable": true,
+    // Terminal
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.tabs.enabled": true,
+    "scm.diffDecorationsGutterWidth": 2,
+    "debug.onTaskErrors": "debugAnyway",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderIndicators": false,
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    // Eslint
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.quiet": false,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "vue",
+        "html",
+        "markdown",
+        "json",
+        "jsonc",
+        "json5"
+    ],
+}
